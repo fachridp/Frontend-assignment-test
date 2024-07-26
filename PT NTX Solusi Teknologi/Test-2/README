@@ -1,0 +1,23 @@
+## TEST 2
+
+Create a function named calculateShippingCost that takes three parameters:
+1. destination (string): the shipping destination, which can be "domestic" or
+"international".
+2. weight (number): the weight of the package in kilograms (kg).
+3. priority (string): the shipping priority, which can be "standard", "express", or
+"priority".
+The function should calculate the shipping cost based on the following rules:
+1. If destination is not "domestic" or "international", return "Invalid destination".
+2. If weight is less than or equal to 0, return "Invalid weight".
+3. Rules to determine the shipping cost based on destination:
+For "domestic" destination:
+a) If priority is "standard", the base cost is $5 per kg.
+b) If priority is "express", the base cost is $10 per kg.
+c) If priority is "priority", the base cost is $20 per kg.
+d) If weight is more than 10 kg, add an additional cost of $10.
+For "international" destination:
+a) If priority is "standard", the base cost is $15 per kg.
+b) If priority is "express", the base cost is $25 per kg.
+c) If priority is "priority", the base cost is $50 per kg.
+d) If weight is more than 5 kg, add an additional cost of $50.
+6. If priority is not one of "standard", "express", or "priority", return "Invalid priority".

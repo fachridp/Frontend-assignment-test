@@ -1,0 +1,20 @@
+## TEST 1
+
+Create a function named calculateTax that takes three parameters:
+1. income (number): the annual income of an individual in USD.
+2. age (number): the age of the individual.
+3. dependents (number): the number of dependents the individual has.
+The function should calculate the annual tax that the individual needs to pay based on the
+following rules:
+1. If income is less than 0 or not a number, return "Invalid income".
+2. If age is less than 0 or not a number, return "Invalid age".
+3. If dependents is less than 0 or not a number, return "Invalid dependents".
+4. Rules:
+a) If the age is less than 18, return "Not eligible for tax".
+b) If the age is 65 or older, the individual gets a 20% tax discount.
+c) If the income is less than or equal to $10,000, the tax is 10% of the income.
+d) If the income is between $10,001 and $50,000, the tax is 20% of the income.
+e) If the income is more than $50,000, the tax is 30% of the income.
+f) For each dependent, the individual gets a $500 tax deduction.
+g) The minimum tax is $0 (no negative tax).
+Use a recursive function and explain your code.

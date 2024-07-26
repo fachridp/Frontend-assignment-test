@@ -1,0 +1,18 @@
+## TEST 3
+Problem Statement:
+You are working as a developer at an e-commerce company that uses Vue.js for their
+application. Your task is to implement a product management feature with the following
+requirements:
+1. You need to implement a feature to calculate the total price of a product category,
+including all its subcategories recursively. Categories can nest indefinitely.
+2. Make sure to consider product categories that might not have subcategories or products.
+Also, there are categories that have subcategories but no products directly under them.
+3. The backend uses GraphQL to manage data. You need to implement GraphQL operations
+to fetch, add, edit, and delete products and categories.
+4. Use Pinia or Vuex to manage the application's state, including products, categories, and
+loading status.
+5. Implement all features in a Vue.js application.
+6. Implement Create, Read, Update, Delete (CRUD) features for products and categories.
+Your Task:
+Create Vue.js components to display, add, edit, and delete products and categories using
+GraphQL operations.
